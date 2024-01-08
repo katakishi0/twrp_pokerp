@@ -35,7 +35,6 @@ PRODUCT_PACKAGES += \
 
  # The following modules are included in debuggable builds only.
 PRODUCT_PACKAGES_DEBUG += \
-    bootctl \
     update_engine_client
 
 # Device identifier. This must come after all inclusions
