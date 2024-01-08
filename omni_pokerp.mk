@@ -14,7 +14,6 @@ $(call inherit-product, device/motorola/pokerp/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/pb/config/common.mk)
-$(call inherit-product, vendor/pb/config/gsm.mk)
 
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
