@@ -127,6 +127,10 @@ TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
 TW_OVERRIDE_SYSTEM_PROPS := \
     "ro.build.product;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental;ro.product.device=ro.product.system.device;ro.product.model=ro.product.system.model;ro.product.name=ro.product.system.name"
 
+# Installer
+AB_OTA_UPDATER := true
+USE_RECOVERY_INSTALLER := false
+RECOVERY_INSTALLER_PATH := device/motorola/channel/pokerp
 
 # Encryption
 PLATFORM_VERSION := 127
